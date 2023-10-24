@@ -9,7 +9,6 @@ export const HomePage = () => {
             <ExploreTopBook />
             <Carousel />
             <Heros />
-            <Heros />
             <LibraryServices />
         </>
     );
