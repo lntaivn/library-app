@@ -1,7 +1,7 @@
 class ReviewRequestModel {
     rating: number;
     bookId: number;
-    reviewDescription?: string;
+    reviewDescription: string;
 
     constructor(rating: number, bookId: number, reviewDescription: string) {
         this.rating = rating;

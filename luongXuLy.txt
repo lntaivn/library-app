@@ -1,0 +1,8 @@
+1. Tạo entity
+
+2. tạo file trong dao( data access object)
+
+3. Service
+
+4. controller
+
