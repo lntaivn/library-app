@@ -1,7 +1,7 @@
 package com.lntai.springbootlibrary.entity;
 
+import jakarta.persistence.*;
 import lombok.Data;
-import javax.persistence.*;
 
 @Entity
 @Table(name = "book")
@@ -31,6 +31,8 @@ public class Book {
     @Column(name = "category")
     private String category;
 
-    @Column(name = "img")
-    private String img;
+    @Lob
+    @Column(name = "img", columnDefinition = "MEDIUMBLOB")
+    private byte[] img;
+
 }
